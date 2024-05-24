@@ -45,6 +45,8 @@
  * ```js
  * var $div = $('<div ng-controller="MyCtrl">{{content.label}}</div>');
  * $(document.body).append($div);
+* var $div = $('<div ng-controller="MyCtrl">{{content.label}}</div>');
+ * $(document.body).append($div);
  *
  * angular.element(document).injector().invoke(function($compile) {
  *   var scope = angular.element($div).scope();
